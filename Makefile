@@ -8,4 +8,4 @@ winediscordipcbridge.exe: main.c
 	winegcc main.c -o winediscordipcbridge
 
 clean:
-	rm winediscordipcbridge.exe winediscordipcbridge.exe.so
+	rm -v winediscordipcbridge.exe winediscordipcbridge.exe.so
